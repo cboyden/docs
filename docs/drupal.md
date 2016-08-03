@@ -14,6 +14,7 @@ Documentation for the Radix theme for Drupal.
 2. Create a subtheme: `drush cc all; drush radix "Subtheme"`.
 3. Set default theme: `drush en subtheme -y; drush vset theme_default subtheme`.
 4. Install required modules: `cd /path/to/subtheme; npm run setup`.
+5. Run gulp to build initial CSS: `gulp css`.
 5. Update browserSyncProxy in /path/to/subtheme/config.json.
 6. Run gulp to watch for changes: `gulp`.
 
